@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>诺视传播</title>
+    <link rel="shortcut icon" href="/favicon.ico.ico"/>
+	<link rel="bookmark" href="/favicon.ico.ico"/>
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	<div class="swiper-container" id='swiper'>
+		<header class="header">
+			<div class="navbar" id="navbar" style="display: none;">
+				<ul id="navlist">
+					<li>首页</li>
+					<li>公司简介</li>
+					<li>业务范围</li>
+					<li>项目案例</li>
+					<li>服务客户</li>
+					<li>关于我们</li>
+				</ul>
+			</div>
+			<div class="nav-btn">
+				<div class="nav-menu" id="nav-menu" onclick="showNavBar()">
+					<div class="nav-menu1"></div>
+					<div class="nav-menu2"></div>
+					<div class="nav-menu3"></div>
+				</div>
+			</div>
+		</header>
+		<div class="swiper-wrapper">
+			<div class="swiper-slide" data-hash="slide1">
+				<div class="swiper-container" id='swiper1'>
+					<div class="swiper-wrapper">
+						<div class="swiper-slide innerSwiper1">
+							<p>公关活动管理服务商</p>
+						</div>
+						<div class="swiper-slide innerSwiper2">
+							<div class="logoBox">
+								<img src="image/logo.png" class="logoImg">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide" data-hash="slide2">
+				<div class="page2">
+					<div class="page2-top">
+						<div class="leftbox">WHO</div>
+						<div class="rightbox">
+							<p class="rightTop">IS</p>
+							<p class="rightBottom">NEXUS MEDIA</p>
+						</div>
+					</div>
+					<div class="page2-bottom">
+						诺视传播是一家专注于体验营销领域的活动管理服务商<br/>
+						致力于为客户提供高度定制化、差异化整合营销解决方案<br/>
+						旗下设立【公关活动】、【美陈空间】、【文创实验室】三大核心板块
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide" data-hash="slide3">
+				<div class="page3">
+					<div class="page3-top">
+						<div class="top-text">
+							<p class="event">EVENT</p>
+							<div class="eventClick">
+								<p>EVENT</p>
+								<p>公关活动</p>
+								<p>以活动为载体，开展营销推广，提供个性化、专业化的服务<br/>提升客户的品牌、产品文化价值及策略</p>
+							</div>
+						</div>
+						<img src="image/eventBG.png" class="topBG">
+					</div>
+					<div class="page3-mid">
+						<div class="mid-left">
+							<div class="mid-text">
+								<p class="display">DISPLAY</p>
+								<div class="displayClick">
+									<p>DISPLAY</p>
+									<p>美陈空间</p>
+									<p>致力于打造具有个性的品牌形象，将品牌价值转移到目标市场<br/>扩大品牌影响力和吸引力</p>
+								</div>
+							</div>
+							<img src="image/displayBG.png" class="midBG">
+						</div>
+						<div class="mid-right">DO</div>
+					</div>
+					<div class="page3-bottom">
+						<div class="bottom-text">
+							<p class="zaolab">ZAOLAB</p>
+							<div class="zaolabClick">
+								<p>ZAOLAB</p>
+								<p>造文创</p>
+								<p>通过新消费升级领域的创新创造，将创意融入到体验营销领域<br/>以社交娱乐方式重新处理客户的品牌和产品需求</p>
+							</div>
+						</div>
+						<img src="image/zaolabBG.png" class="bottomBG">
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide" data-hash="slide4">
+				<div class="page4">
+					<div class="anliBox">
+						<div class="anliBox1">
+							<div class="anli1" onclick="showMore(1)"></div>
+							<div class="anli2" onclick="showMore(2)"></div>
+							<div class="anli3" onclick="showMore(3)"></div>
+						</div>
+						<div class="anliBox2">
+							<div class="anli4" onclick="showMore(4)"></div>
+							<div class="anli7" onclick="showMore(7)"></div>
+						</div>
+						<div class="anliBox3">
+							<div class="anli-work">WORK</div>
+							<div class="anli5" onclick="showMore(5)"></div>
+							<div class="anli6" onclick="showMore(6)"></div>
+						</div>
+						<div class="anliBox4">
+							<div class="anli8" onclick="showMore(8)"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide" data-hash="slide5">
+				<div class="page5">
+					<div class="page5-title">CLIENT</div>
+					<ul class="page5-list">
+						<li>
+							<div>
+								<img class="swiper-lazy" data-src="image/logo/logo1.png"></img>
+								<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+							</div>
+
+                        </li>
+						<li>
+							<div>
+								<img class="swiper-lazy" data-src="image/logo/logo2.png"></img>
+								<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+							</div>
+                        </li>
+						<li>
+							<div>
+								<img class="swiper-lazy" data-src="image/logo/logo3.png"></img>
+								<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+							</div>
+
+                        </li>
+						<li>
+							<div>
+								<img class="swiper-lazy" data-src="image/logo/logo4.png"></img>
+								<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+							</div>
+                        </li>
+						<li>
+							<div>
+								<img class="swiper-lazy" data-src="image/logo/logo5.png"></img>
+								<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+							</div>
+                        </li>
+						<li>
+							<div>
+								<img class="swiper-lazy" data-src="image/logo/logo6.png"></img>
+								<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+							</div>
+                        </li>
+						<li>
+							<div>
+								<img class="swiper-lazy" data-src="image/logo/logo7.png"></img>
+								<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+							</div>
+
+                        </li>
+						<li>
+							<div>
+								<img class="swiper-lazy" data-src="image/logo/logo8.png"></img>
+								<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+							</div>
+                        </li>
+						<li>
+							<div>
+								<img class="swiper-lazy" data-src="image/logo/logo9.png"></img>
+								<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+							</div>
+
+                        </li>
+						<li>
+							<div>
+								<img class="swiper-lazy" data-src="image/logo/logo10.png"></img>
+								<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+							</div>
+                        </li>
+						<li>
+							<div>
+								<img class="swiper-lazy" data-src="image/logo/logo11.png"></img>
+								<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+							</div>
+                        </li>
+						<li>
+							<div>
+								<img class="swiper-lazy" data-src="image/logo/logo12.png"></img>
+								<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+							</div>
+                        </li>
+					</ul>
+				</div>
+			</div>
+			<div class="swiper-slide" data-hash="slide6">
+				<div class="page6">
+					<div class="page6-title">CONTACT</div>
+					<div class="inputBox">
+						<div>
+							<label>NAME</label><input type="text" name="name">
+						</div>
+						<div>
+							<label>PHONE</label><input type="text" name="phone">
+						</div>
+						<div>
+							<label>E-MAIL</label><input type="text" name="email">
+						</div>
+						<div id="msgBox">
+							<div id="msg">MESSAGE</div>
+							<textarea id="msgArea" name='message' style="display: none;"></textarea>
+						</div>
+						<div id="sendBtn" style="cursor: pointer;">SEND YOUR MESSAGE</div>
+					</div>
+					<div class="contactBox">
+						<P><span class="contactlogo"></span>concat@163.com</P>
+						<p><span class="phonelogo"></span>(0755) 3284 3534</p>
+						<p><span class="addresslogo"></span>深圳市南山区蛇口南海意库2栋3L<br/>广州市荔湾区芳村大道中183号3L</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="swiper-pagination"></div>
+		<div class="page-btn">
+			<img src="image/page_btn.png" />
+		</div>
+		<div class="flexbg" style="display: none;">
+			<div class="closeBtn"></div>
+			<div class="leftBtn"></div>
+			<div class="rightBtn"></div>
+			<div class="swiper-container" id='swiper2'>
+				<div class="swiper-wrapper anliDetail" id="anliDetail">
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/swiper.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript">
+		var mySwiper = new Swiper('#swiper',{
+			direction: 'vertical',
+			pagination:{
+				el: '.swiper-pagination',
+				clickable: true
+			},
+			mousewheel: true,
+			hashNavigation: true,
+			keyboard: true,
+            lazy: true
+		});
+		var swiper1 = new Swiper('#swiper1',{
+			autoplay: {
+				delay: 3000,
+			},
+			loop: true,
+            lazy: true
+
+		});
+		var swiper2 = new Swiper('#swiper2',{
+			loop: true,
+			observer: true,
+			observeParents: true,
+			initialSlide: 1,
+            lazy: true
+		});
+		$(function(){
+			// if (!window.location.hash) {
+			// 	window.location = window.location.href + '#slide1'
+			// }
+	        $(".page-btn").on("click", 'img', function(){
+		        mySwiper.slideNext();
+		    });
+		    // mySwiper.init();
+		    $('.rightBtn').on('click', function(){
+		    	swiper2.slideNext();
+		    });
+		    $('.leftBtn').on('click', function(){
+		    	swiper2.slidePrev();
+		    });
+	    });
+        // 图片懒加载
+        // function lazyload() {
+        //     let images = document.getElementsByTagName('img');
+        //     let len    = images.length;
+        //     let n      = 0;      //存储图片加载到的位置，避免每次都从第一张图片开始遍历
+        //     return function() {
+        //         let seeHeight = document.documentElement.clientHeight;
+        //         let scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        //         for(let i = n; i < len; i++) {
+        //             if(images[i].offsetTop < seeHeight + scrollTop) {
+        //                 if(images[i].getAttribute('src') === 'image/loading.gif') {
+        //                     images[i].src = images[i].getAttribute('data-src');
+        //                 }
+        //                 n = n + 1;
+        //             }
+        //         }
+        //     }
+        // }
+        // lazyload();
+        // window.addEventListener('scroll', lazyload(), false);
+		function showNavBar(){
+			$('#nav-menu').toggleClass('rotateBtn');
+			$('#navbar').fadeToggle()
+		};
+		$('#navlist').on('click', 'li', function(){
+			var idx = $(this).index();
+			console.log(idx);
+			mySwiper.slideTo(idx, 500, false)
+		});
+		$('#msg').on('click', function(){
+			$('#msgArea').slideToggle();
+		});
+		$('.closeBtn').on('click', function(){
+			$(this).parent().hide();
+		});
+
+		// slide3 鼠标事件
+		$('.page3-top').mouseenter(function(){
+			// if( $('.eventClick').is(":hidden"))
+			$('.event').addClass('clickFadeOut');
+			$('.eventClick').addClass('clickFadeIn');
+		});
+		$('.mid-left').mouseenter(function(){
+			$('.display').addClass('clickFadeOut');
+			$('.displayClick').addClass('clickFadeIn');
+		});
+		$('.page3-bottom').mouseenter(function(){
+			$('.zaolab').addClass('clickFadeOut');
+			$('.zaolabClick').addClass('clickFadeIn');
+		});
+
+        $('.page3-top').mouseleave(function(){
+            $('.eventClick').removeClass('clickFadeIn');
+            $('.event').removeClass('clickFadeOut');
+        });
+        $('.mid-left').mouseleave(function(){
+            $('.displayClick').removeClass('clickFadeIn');
+            $('.display').removeClass('clickFadeOut');
+        });
+        $('.page3-bottom').mouseleave(function(){
+            $('.zaolabClick').removeClass('clickFadeIn');
+            $('.zaolab').removeClass('clickFadeOut');
+        });
+
+		$('#sendBtn').on('click', function(){
+			console.log('...');
+		});
+
+
+
+	</script>
+</body>
+</html>
